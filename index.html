@@ -1,0 +1,316 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Honors Introduction to Data Science Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+    <!-- Tiny custom tweaks only -->
+    <style>
+      :root {
+        --navy: #001f3f;
+        --baby-blue: #b3daff;
+        --accent-pill: #e3f2ff;
+        --soft-navy: #123456;
+      }
+
+      body, input, select, textarea {
+        font-family: "Georgia", "Times New Roman", serif;
+      }
+
+      a {
+        color: var(--navy);
+      }
+
+      a:hover {
+        color: var(--baby-blue);
+      }
+
+      .meta-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4em;
+        margin: 0.75em 0 1.25em;
+      }
+
+      .meta-tags span {
+        font-size: 0.75rem;
+        padding: 0.25em 0.8em;
+        border-radius: 999px;
+        background: var(--accent-pill);
+        border: 1px solid var(--baby-blue);
+        color: var(--soft-navy);
+      }
+
+      .pill-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4em;
+        margin: 0.75em 0 0.75em;
+      }
+
+      .pill-row span {
+        font-size: 0.75rem;
+        padding: 0.25em 0.8em;
+        border-radius: 999px;
+        background: #f0f4ff;
+        border: 1px solid #d6e0ff;
+      }
+
+      /* Make featured image round */
+      .image.right img {
+        border-radius: 50%;
+        border: 3px solid var(--baby-blue);
+      }
+    </style>
+  </head>
+
+  <body class="is-preload">
+    <div id="wrapper">
+
+      <!-- HEADER -->
+      <header id="header">
+        <a href="index.html" class="logo">Honors Introduction to Data Science · Portfolio</a>
+      </header>
+
+      <!-- NAV -->
+      <nav id="nav">
+        <ul class="links">
+          <li class="active"><a href="index.html">Portfolio Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#footer">Contact</a></li>
+        </ul>
+        <ul class="icons">
+          <li><a href="https://github.com/ajohns2024" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+          <li><a href="https://www.linkedin.com/in/averybjohns" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+        </ul>
+      </nav>
+
+      <!-- MAIN -->
+      <div id="main">
+
+        <!-- INTRO / ABOUT AVERY (featured post like Elements) -->
+        <article class="post featured">
+          <header class="major">
+            <h2>Honors Introduction to Data Science Portfolio</h2>
+            <p>
+              <span class="image right">
+                <img src="images/Headshot_ABJ.jpg" alt="Headshot of Avery Bernard Johns" />
+              </span>
+              <strong>Avery Bernard Johns</strong> is a sophomore <strong>History and Sociology</strong> double major
+              with a <strong>Data Science minor</strong> at Howard University and a member of the
+              <strong>Humanities and Social Sciences Scholars Pathway-to-PhD Program</strong>.
+              Avery’s academic trajectory is oriented toward a <strong>dual JD–PhD in Forensic Anthropology</strong> and
+              the creation of public-facing data tools that illuminate structural inequality and spatial patterns of harm.
+            </p>
+
+            <p>
+              This portfolio curates exploratory data analysis (EDA) projects completed in Honors Introduction to Data
+              Science. Each project moves from raw data to clear, interpretable visuals that support questions about
+              housing affordability, displacement, and social stratification.
+            </p>
+
+            <div class="pill-row">
+              <span>Python · Pandas · NumPy</span>
+              <span>Jupyter Notebooks</span>
+              <span>Matplotlib · Plotly</span>
+              <span>Exploratory Data Analysis</span>
+              <span>Housing &amp; Inequality</span>
+            </div>
+          </header>
+        </article>
+
+        <!-- SKILLS SECTION (elements-style block) -->
+        <section id="skills" class="post">
+          <header class="major">
+            <h2>Skills &amp; Methods</h2>
+            <p>A snapshot of the tools and approaches used across this portfolio.</p>
+          </header>
+
+          <h3>Technical Toolkit</h3>
+          <p>
+            Core tools used to wrangle, analyze, and visualize data in these projects:
+          </p>
+          <ul>
+            <li>Python and Jupyter Notebooks</li>
+            <li>Pandas, NumPy, (GeoPandas where applicable)</li>
+            <li>Matplotlib, Plotly, Seaborn</li>
+            <li>Git and GitHub for version control and publishing</li>
+          </ul>
+
+          <h3>Analytical Approach</h3>
+          <p>
+            Emphasis on transparent and reproducible analysis:
+          </p>
+          <ul>
+            <li>Data cleaning, validation, and documentation</li>
+            <li>Summary statistics and trend identification</li>
+            <li>Time-series, comparative, and distributional plots</li>
+            <li>Basic choropleth mapping and spatial breakdowns</li>
+          </ul>
+
+          <h3>Substantive Focus</h3>
+          <p>
+            Quantitative analysis grounded in real-world questions:
+          </p>
+          <ul>
+            <li>Housing affordability and price dynamics</li>
+            <li>Urban inequality and neighborhood change</li>
+            <li>Census-based demographic patterns</li>
+            <li>Connections between data, law, policy, and history</li>
+          </ul>
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="posts" id="projects">
+
+          <!-- GLOBAL HOUSING PROJECT -->
+          <article>
+            <header>
+              <span class="date">Fall 2025</span>
+              <h2>
+                <a href="https://ajohns2024.github.io/EDA_Global_Housing/" target="_blank">
+                  Global Housing Market EDA
+                </a>
+              </h2>
+            </header>
+
+            <a href="https://ajohns2024.github.io/EDA_Global_Housing/"
+               target="_blank"
+               class="image fit">
+              <img src="images/global_housing_screenshot.png"
+                   alt="Screenshot of the Global Housing Market EDA project" />
+            </a>
+
+            <div class="meta-tags">
+              <span>Global House Price Index (2010–2020)</span>
+              <span>Mortgage Rates</span>
+              <span>Affordability Ratios</span>
+              <span>Animated Visualizations</span>
+            </div>
+
+            <p>
+              This final project analyzes worldwide housing price indices, mortgage rates, and affordability trends
+              from 2010–2020. Animated bar charts, time-series visualizations, and a global choropleth map highlight
+              how national housing markets change over time.
+            </p>
+            <p>
+              The project translates complex multi-country datasets into intuitive visual summaries that surface
+              inequality, volatility, and long-run housing patterns, with particular attention to regions under the
+              greatest affordability strain.
+            </p>
+
+            <ul class="actions special">
+              <li><a href="https://ajohns2024.github.io/EDA_Global_Housing/" target="_blank" class="button">View Project</a></li>
+            </ul>
+          </article>
+
+          <!-- DC CENSUS PORTFOLIO -->
+          <article>
+            <header>
+              <span class="date">Fall 2025</span>
+              <h2>
+                <a href="https://ajohns2024.github.io/DC_Census_Portfolio_github.io/" target="_blank">
+                  DC Census Portfolio
+                </a>
+              </h2>
+            </header>
+
+            <a href="https://ajohns2024.github.io/DC_Census_Portfolio_github.io/"
+               target="_blank"
+               class="image fit">
+              <img src="images/dc_census_screenshot.png"
+                   alt="Screenshot of Washington, D.C. Census data visualizations" />
+            </a>
+
+            <div class="meta-tags">
+              <span>Washington, D.C. Census Data</span>
+              <span>Neighborhood-Level Analysis</span>
+              <span>Demographics &amp; Income</span>
+              <span>Housing Costs</span>
+            </div>
+
+            <p>
+              The <strong>DC Census Portfolio</strong> examines demographic, economic, and housing variables across
+              Washington, D.C. neighborhoods using publicly available Census data. The analysis focuses on how age,
+              race, income, and housing costs vary across the District.
+            </p>
+            <p>
+              The project builds core skills in
+              <strong>data cleaning, summary statistics, exploratory visualization, and geographic breakdowns</strong>.
+              Through plots, tables, and map-based graphics, it turns raw Census figures into accessible visual
+              patterns that make local inequality easier to see and discuss.
+            </p>
+
+            <ul class="actions special">
+              <li><a href="https://ajohns2024.github.io/DC_Census_Portfolio/" target="_blank" class="button">View Project</a></li>
+            </ul>
+          </article>
+
+        </section>
+
+        <!-- ABOUT THIS PORTFOLIO (simple elements-style post) -->
+        <section class="post">
+  <header class="major">
+    <h2>About This Portfolio</h2>
+  </header>
+
+  <p>
+    This portfolio highlights data-driven projects that move from raw datasets to clear, interpretable insights about
+    housing, affordability, and urban inequality.
+  </p>
+
+  <ul>
+    <li>Clear, transparent, and reproducible analysis</li>
+    <li>Visuals that support—rather than replace—interpretation</li>
+    <li>Projects grounded in real social and spatial questions</li>
+    <li>Accessible to both technical and non-technical audiences</li>
+  </ul>
+</section>
+
+
+      </div>
+
+      <!-- FOOTER -->
+      <footer id="footer">
+        <section class="split contact">
+          <section class="alt">
+            <h3>Location</h3>
+            <p>Washington, D.C.</p>
+          </section>
+          <section>
+            <h3>Email</h3>
+            <p><a href="mailto:avery.johns@bison.howard.edu">avery.johns@bison.howard.edu</a></p>
+          </section>
+          <section>
+            <h3>Profiles</h3>
+            <ul class="icons alt">
+              <li><a href="https://github.com/ajohns2024" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+              <li><a href="https://www.linkedin.com/in/averybjohns" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+            </ul>
+          </section>
+        </section>
+      </footer>
+
+      <div id="copyright">
+        <ul><li>&copy; Avery Bernard Johns</li></ul>
+      </div>
+
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+  </body>
+</html>
+
+
